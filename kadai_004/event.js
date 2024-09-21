@@ -1,6 +1,6 @@
 $(function() {
   $(window).on({
-    'load': function() {
+    'load': () => {
       console.log('loadイベントが発生しました');
     },
     'scroll': () => {
